@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Personal Portfolio</title>
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/media_query.css">
+
+  <!--
+    - google font link
+  -->
+  <link href="https://fonts.googleapis.com/css?family=Jost:regular,500,800" rel="stylesheet" />
+
+</head>
+
+<body>
+
+
+  <!--
+    - container
+  -->
+
+  <div class="container">
+
+    <!--
+      - #HEADER
+    -->
+
+    <header>
+
+      <!--
+        - navbar toggle open button
+      -->
+
+      <button class="menu-open-btn">
+        <span>Menu</span>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <nav class="nav">
+
+        <button class="menu-close-btn">
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+
+        <h4 class="nav-heading">Menu</h4>
+
+        <ul>
+
+          <li class="nav-item">
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#portfolio" class="nav-link">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#services" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="#customers" class="nav-link">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+
+        </ul>
+
+
+        <div class="nav-footer">
+
+          <ul class="social-link">
+
+
+
+            <li>
+              <a href="#">
+                <ion-icon name="logo-behance"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://github.com/Jassefa3">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+          <p>Developed by <a href="#" class="link-underline">Joseph-Assefa</a></p>
+
+        </div>
+
+      </nav>
+
+
+      <!--
+        - header intro
+      -->
+
+      <section class="intro section-padding">
+
+        <div class="intro-profile">
+
+          <div class="intro-border one"></div>
+          <div class="intro-border two"></div>
+
+          <div class="img-box">
+            <img src="./assets/images/Joseph.png" alt="" class="intro-img" width="100%" loading="lazy">
+          </div>
+
+          <p>Hi there! I am</p>
+
+          <div class="profile-name">
+            <span>[</span>
+            <div>Joseph Assefa</div>
+            <span>]</span>
+          </div>
+
+        </div>
+
+        <a href="#contact" class="intro-link">
+          <span class="circle"></span>
+          <span class="link-underline">I’m available for a freelance job. Hire me</span>
+        </a>
+
+      </section>
+
+    </header>
+
+
+
+
+
+    <main>
+
+      <!--
+        - #HOME
+      -->
+
+      <section class="section-padding" id="home">
+
+        <h3 class="section-subtitle">Introduction</h3>
+
+        <h2 class="section-title">UI/UX Designer</h2>
+
+        <p class="section-desc">I design and develop services for customers of all sizes,
+          specializing in creating stylish, modern websites,
+          web services and online stores. I believe great design is defined by the experience it creates for the user combined with flawless execution. 
+          I'm a designer with a keen eye for creating engaging UI and bringing products to life. 
+          </p>
+
+        <img src="./assets/images/Logo.png" width="200px" alt="" loading="lazy">
+
+      </section>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <section class="section-padding" id="about">
+
+        <h3 class="section-subtitle">About me</h3>
+
+        <h2 class="section-title">Biography</h2>
+
+        <p class="section-desc">I'm a Freelancer Web Designer/Front-end Developer with over 3 years of experience.
+          I specialize in wireframing/prototyping mobile interfaces for amazing people all around the world. 
+          I value simple content structure, clean design patterns, and thoughtful interactions and I like to work with new people. 
+          New people are new experiences.</p>
+
+
+        <table class="about-table">
+          <tr>
+            <th>Name</th>
+            <td>Joseph Assefa</td>
+          </tr>
+          <tr>
+            <th>Birthday</th>
+            <td>23rd November 2000</td>
+          </tr>
+          <tr>
+            <th>Age</th>
+            <td>21 years</td>
+          </tr>
+          <tr>
+            <th>Address</th>
+            <td>Austin</td>
+          </tr>
+          
+          <tr>
+            <th>Email</th>
+            <td>
+              <a href="mailto:assefa.joseph@gmail.com" class="link-underline">assefa.joseph@gmail.com</a>
+            </td>
+          </tr>
+          <tr>
+            <th>Linkedin</th>
+            <td>
+              <a href="https://www.linkedin.com/in/joseph-assefa-a6118b213/" class="link-underline">@Joseph-Assefa</a>
+            </td>
+          </tr>
+        </table>
+
+        <button class="download-cv">
+          <ion-icon name="cloud-download-outline"></ion-icon>
+          <span>Download Resume</span>
+        </button>
+
+
+        <div class="about-tab">
+
+          <ul class="tab-nav">
+
+            <li>
+              <button class="one tab-button active">Experience</button>
+            </li>
+            <li>
+              <button class="two tab-button">Education</button>
+            </li>
+            <li>
+              <button class="three tab-button">Skills</button>
+            </li>
+
+          </ul>
+
+          <div class="tab-content-group">
+
+            <div class="one tab-content active">
+
+              <div class="content-card">
+
+                <div class="card-head">
+                  <h4> Prosper IT Consulting</h4>
+                  <p>(Oct. 2021 - Jan. 2022)</p>
+                </div>
+
+                <div class="card-body">
+                  <h3>Software Developer Intern</h3>
+                  <p>Skills set: HTML, CSS, JS, Testing
+                    Participated in daily Agile/Scrum sessions to meet team delivery and quality goals
+                    Developer on live website for local investment company creating fluid and user-focused interfaces
+                    </p>
+                </div>
+
+              </div>
+
+
+              <div class="content-card">
+
+                <div class="card-head">
+                  <h4>Treehouse Strategy</h4>
+                  <p>(Jun. 2021 - Sep. 2021)                  </p>
+                </div>
+
+                <div class="card-body">
+                  <h3>UI/UX Design Intern</h3>
+                  <p>Skills set: Wireframes, Figma, Data Analysis, User Story
+                    Gained B2C experience
+                    Expanded design skills to multiple platforms
+                    </p>
+                </div>
+
+              </div>
+
+
+              <div class="content-card">
+
+                <div class="card-head">
+                  <h4>Epic Trading</h4>
+                  <p>(Jun. 2019 - Nov. 2020)</p>
+                </div>
+
+                <div class="card-body">
+                  <h3>Financial ambassador</h3>
+                  <p>Developed and implemented daily strategy meetings to increase team efficiency
+                    Hosted live trading calls for each week for over 300 investors and earned over $10k in assets
+                    </p>
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="two tab-content">
+
+              <div class="content-card">
+
+                <div class="card-head">
+                  <h4>New York Institute of arts+design</h4>
+                  <p>( 2020 — 2021 )</p>
+                </div>
+
+                <div class="card-body">
+                  <h3>UX Design</h3>
+                  <p>Intensive six-month bootcamp focused on end-user research and elements of web design</p>
+                </div>
+
+              </div>
+
+
+              <div class="content-card">
+
+                <div class="card-head">
+                  <h4>The Tech Academy</h4>
+                  <p>( 2021 — 2022 )</p>
+                </div>
+
+                <div class="card-body">
+                  <h3>Front-end development</h3>
+                  <p>Immersive boot camp with more than 600 hours of instruction and hands-on coding experience, while 
+                    also focusing on core concepts of UX design principles
+                  </p>
+                </div>
+
+              </div>
+
+
+              <div class="content-card">
+
+                <div class="card-head">
+                  <h4>Community college of Denver</h4>
+                  <p>( 2019 — 2021 )</p>
+                </div>
+
+                <div class="card-body">
+                  <h3>Associates Degree</h3>
+                  <p>Dedicated three semesters to achieving a fundamental understanding of business through a degree
+                  </p>
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="three tab-content">
+
+              <div class="skill-box">
+                <h4 class="skill-name">Figma/Adobe XD</h4>
+
+                <div class="progress-bar">
+                  <div class="progress" style="width: 92%;"></div>
+                  <div class="progress-rate" style="left: 92%;">92%</div>
+                </div>
+              </div>
+
+              <div class="skill-box">
+                <h4 class="skill-name">HTML5 & CSS3</h4>
+
+                <div class="progress-bar">
+                  <div class="progress" style="width: 95%;"></div>
+                  <div class="progress-rate" style="left: 95%;">85%</div>
+                </div>
+              </div>
+
+              <div class="skill-box">
+                <h4 class="skill-name">Creative Cloud</h4>
+
+                <div class="progress-bar">
+                  <div class="progress" style="width: 80%;"></div>
+                  <div class="progress-rate" style="left: 80%;">80%</div>
+                </div>
+              </div>
+
+              <div class="skill-box">
+                <h4 class="skill-name">Adobe Illustrator</h4>
+
+                <div class="progress-bar">
+                  <div class="progress" style="width: 85%;"></div>
+                  <div class="progress-rate" style="left: 85%;">85%</div>
+                </div>
+              </div>
+
+              <p class="skill-text">
+                A freelance creative designer with a love for elegant design,
+                clean typography and well-written code, located in Austin,TX.
+                Provide high quality and cost effective offshore web and software
+                development services. Wide range of web and software development
+                services across the world.
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <section class="section-padding" id="portfolio">
+
+        <h3 class="section-subtitle">Portfolio</h3>
+
+        <div class="wrapper">
+
+          <h2 class="section-title">Featured Projects</h2>
+
+          <div class="btn-group">
+            <button id="portfolio-carousel-prev">
+              <div class="arrow">
+                <div class="arrow-head-left"></div>
+              </div>
+            </button>
+
+            <button id="portfolio-carousel-next">
+              <div class="arrow">
+                <div class="arrow-head-right"></div>
+              </div>
+            </button>
+          </div>
+
+        </div>
+
+        <div class="portfolio-carousel">
+
+          <div class="portfolio-carousel-inner">
+
+            <div class="portfolio-carousel-card">
+
+              <div class="card-head">
+                <img src="./assets/images/Qutie.png" alt="" class="slider-img" width="100%" loading="lazy">
+              </div>
+
+              <div class="card-body">
+                <p>illustration, design</p>
+                <h4><a href="https://assefajoseph.wixsite.com/sample/about-8">Qutie"Mobile Discounting App"</a></h4>
+              </div>
+
+            </div>
+
+
+            <div class="portfolio-carousel-card">
+
+              <div class="card-head">
+                <img src="./assets/images/MGC.png" alt="" class="slider-img" width="100%" loading="lazy">
+              </div>
+
+              <div class="card-body">
+                <p>web, mobile, online</p>
+                <h4><a href="https://assefajoseph.wixsite.com/sample/about-1">Mount Gerizim Charity</a></h4>
+              </div>
+
+            </div>
+
+
+            <div class="portfolio-carousel-card">
+
+              <div class="card-head">
+                <img src="./assets/images/Movie app.png" alt="" class="slider-img" width="100%" loading="lazy">
+              </div>
+
+              <div class="card-body">
+                <p>HTML5, CSS, JavaScript, design, vector</p>
+                <h4><a href="https://htmlpreview.github.io/?https://github.com/Jassefa3/HTML-and-CSS-Projects/blob/main/academy_cinemas.html">Movie App</a></h4>
+              </div>
+
+            </div>
+
+
+            <div class="portfolio-carousel-card">
+
+              <div class="card-head">
+                <img src="./assets/images/Fordham.png" alt="" class="slider-img" width="100%" loading="lazy">
+              </div>
+
+              <div class="card-body">
+                <p>mobile, design</p>
+                <h4><a href="https://assefajoseph.wixsite.com/sample/single-project-1">Fordham Redesign"Localization project</a></h4>
+              </div>
+
+            </div>
+
+
+            <div class="portfolio-carousel-card">
+
+              <div class="card-head">
+                <img src="./assets/images/Spacestation.png" alt="" class="slider-img" width="100%" loading="lazy">
+              </div>
+
+              <div class="card-body">
+                <p>HTML5, CSS, design</p>
+                <h4><a href="https://htmlpreview.github.io/?https://github.com/Jassefa3/HTML-and-CSS-Projects/blob/main/index.html">Space station</a></h4>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+
+
+
+      <!--
+        - #SERVICES
+      -->
+
+      <section class="section-padding" id="services">
+
+        <h3 class="section-subtitle">Services</h3>
+
+        <h2 class="section-title">What I Do</h2>
+
+        <p class="section-desc">I help ambitious businesses like yours generate more profits by building awareness,
+          driving web traffic, connecting with customers and growing overall sales.</p>
+
+
+        <div class="service-cards-group">
+
+          <div class="service-card">
+
+            <div class="card-body">
+              <h3>UI/UX Solutions</h3>
+              <p>As designers, our goal is not to eliminate complexity or friction, but rather create a clear, 
+                intuitive, and understandable product expierence. I build brands through cultural insights & strategic vision. </p>
+            </div>
+
+            <div class="card-footer">
+              <span>Curiosity,
+                Empathy,
+                Discipline</span>
+              <div>soft skills</div>
+            </div>
+
+          </div>
+
+
+          <div class="service-card">
+
+            <div class="card-body">
+              <h3>Front End Programming</h3>
+              <p>Learning to code is useful no matter what your career ambitions are.
+                I am trained in: HTML, CSS, JavaScript, C#, SQL, Python, and more.</p>
+            </div>
+
+            <div class="card-footer">
+              <span>Critical Thinking,
+                Problem Solving,
+                Creativity</span>
+              <div>soft skills</div>
+            </div>
+
+          </div>
+
+
+          <div class="service-card">
+
+            <div class="card-body">
+              <h3>Global Marketing</h3>
+              <p>Custom marketing solutions. From my role as an financial ambassador I am much more capable to play my part in bringing success and value to any team.</p>
+            </div>
+
+            <div class="card-footer">
+              <span>Good Communication,
+                Organization,
+                Collaboration</span>
+              <div>soft skills</div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+
+
+
+      <!--
+        - #CUSTOMERS
+      -->
+
+      <section class="section-padding" id="customers">
+
+        <h3 class="section-subtitle">Customers</h3>
+
+        <h2 class="section-title">Happy People</h2>
+
+        <div class="wrapper">
+
+          <a href="#">
+           
+
+        <div class="testimonials">
+
+          <div class="testimonials-content">
+            <p>
+               "I recently worked with Joseph and he was a pleasure to work with. 
+              He is responsive, diligent and professional and I would absolutely hire him again." 
+            </p>
+
+            <div class="title">Gina Fant-Simon</div>
+            <div class="subtitle"> Founder: Vino and Voting</div>
+          </div>
+          <br>
+          <br>
+          <br>
+          <div class="testimonials">
+
+            <div class="testimonials-content">
+              <p>
+                 "I had the pleasure of working with Joseph on a project and he was very professional and great at communicating. 
+                 If you need someone to communicate efficiently with you and put your vision on a screen, he's your guy!" 
+              </p>
+  
+              <div class="title">Azariah Beyene</div>
+              <div class="subtitle"> Software Engineer: Facebook</div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="testimonials">
+
+          <div class="testimonials-content">
+            <p>
+              "I hired Joseph to help with our company’s rebranding efforts. 
+              Joseph was a pleasure to work with. he was professional and I’d definitely do work with him again, highly recommend. 
+              Worth the $$."</p>
+
+            <div class="title">Markus Hofheinz</div>
+            <div class="subtitle"> Customer: Leopheonix</div>
+          </div>
+
+      </section>
+
+
+
+      
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <section class="section-padding" id="contact">
+
+        <h3 class="section-subtitle">Contact</h3>
+
+        <h2 class="section-title">Get In Touch</h2>
+
+        <p class="section-desc">If you have any suggestion, project or even you want to say “hello”, please
+          fill out the form below and I will reply you shortly.</p>
+
+
+        <form action="#" class="contact-form">
+
+          <div class="wrapper">
+
+            <div>
+              <label for="name">Name *</label>
+              <input type="text" name="name" id="name" required>
+            </div>
+
+            <div>
+              <label for="email">Email *</label>
+              <input type="email" name="email" id="email" required>
+            </div>
+
+          </div>
+
+          <div>
+            <label for="phone">Phone</label>
+            <input type="tel" name="phone" id="phone">
+          </div>
+
+          <div>
+            <label for="message">Message</label>
+            <textarea name="message" id="message" rows="8"></textarea>
+          </div>
+
+          <button type="submit">Send Message</button>
+
+        </form>
+
+        <div class="address">
+          <h4>Location</h4>
+          <address>Austin, Texas</address>
+        </div>
+
+
+        <div class="email">
+          <a href="mailto:assefa.joseph@gmail.com" class="link-underline">assefa.joseph@gmail.com</a>
+        </div>
+
+      </section>
+
+
+
+
+
+      <!--
+        - #FOOTER
+      -->
+
+      <div class="footer">
+
+        <a href="#home" class="go-top">
+          <div class="arrow">
+            <div class="arrow-head"></div>
+          </div>
+        </a>
+
+        <p class="copyright">
+          Copyright © 2021. All rights reserved.
+          <br>
+          Developed by <a href="#" class="link-underline">Joseph-Assefa</a>
+        </p>
+
+      </div>
+
+    </main>
+
+  </div>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+
+  <!--
+   - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
